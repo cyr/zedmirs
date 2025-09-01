@@ -22,8 +22,6 @@ server {
     ssl_protocols       TLSv1.2 TLSv1.3;
     ssl_ciphers         HIGH:!aNULL:!MD5;
     
-    index index.json;
-    
     location / {
         proxy_pass http://my_zedmirs_instance:8050;
 
