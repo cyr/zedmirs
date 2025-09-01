@@ -11,7 +11,7 @@
 
 **zedmirs** needs to be hosted behind a reverse proxy with a valid TLS certificate and dns entry to properly function. 
 
-### Exmaple nginx config
+### Example nginx config
 ```nginx
 server {
     listen 443;
