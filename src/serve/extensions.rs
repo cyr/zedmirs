@@ -9,13 +9,13 @@ pub fn get_routes(state: AppState) -> Router<AppState> {
     Router::new()
         .route("/extensions", get(get_extensions))
         .route("/extensions/updates", get(get_extension_updates))
-        .route("/extensions/:extension_id", get(get_extension_versions))
+        .route("/extensions/{extension_id}", get(get_extension_versions))
         .route(
-            "/extensions/:extension_id/download",
+            "/extensions/{extension_id}/download",
             get(download_latest_extension),
         )
         .route(
-            "/extensions/:extension_id/:version/download",
+            "/extensions/{extension_id}/{version}/download",
             get(download_extension),
         )
         .with_state(state)

@@ -11,6 +11,7 @@ pub mod extensions;
 
 #[derive(Clone, Parser)]
 pub struct ServeOpts {
+    #[arg(long, short, help="Web server port", default_value = "8070")]
     pub port: u16
 }
 
