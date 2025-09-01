@@ -1,7 +1,13 @@
 [package]
 name = "zedmirs"
+description = "A simple service for mirroring zed extensions and hosting them"
+authors = ["cyr"]
 version = "0.1.0"
 edition = "2024"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/cyr/zedmirs"
+keywords = ["zed", "extensions", "mirror"]
 
 [dependencies]
 anyhow = { version = "1.0.99", features = ["backtrace"] }
