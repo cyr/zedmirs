@@ -43,7 +43,7 @@ zedmirs operations are run via the command line and has two mode of operations; 
 
 | Long option    | Short option | ENV variable  | Description |
 | ---------------| ------------ | ------------- | ----------- |
-| --dl-threads   | -d           | DL_THREADS=   | The maximum number of concurrent mirror download tasks. *Works only with the `mirror` and `prune` commands*. [default: 8] |
+| --dl-threads   | -d           | DL_THREADS=   | The maximum number of concurrent mirror download tasks. *Works only with the `mirror` commands*. [default: 8] |
 | --output       | -o           | OUTPUT=       | The directory into where the mirrors will be downloaded. |
 | --help         | -h           |               | Print help. |
 | --version      | -V           |               | Print version. |
