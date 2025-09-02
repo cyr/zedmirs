@@ -33,7 +33,6 @@ server {
 
 zedmirs operations are run via the command line and has two mode of operations; **mirror** and **serve**:
 
-
 * `mirror`: Download metadata and extensions from the official source. Creates an index to be used when running `serve`.
 * `serve`: Serves extensions using the same API as the official sources. `mirror` needs to have been run first to populate the output path with extensions and the index.
 
@@ -55,5 +54,5 @@ Mirror operation
 
 Serve operation
 ```
-./aptmirs --output /opt/mirror-root serve
+./zedmirs --output /opt/mirror-root serve
 ```
